@@ -94,8 +94,7 @@ For more information on inaccuracies, see issue
      could set the value to `html,tex`.
    - To show statistics only for "owned" repositories and not forks with
      contributions, add an environment variable (under the `env` header in the
-     [main
-     workflow]https://github.com/anishkumar127/github-stats-readme/blob/main/.github/workflows/main.yml))
+     [main workflow](https://github.com/anishkumar127/github-stats-readme/blob/main/.github/workflows/main.yml)
      called `EXCLUDE_FORKED_REPOS` with a value of `true`.
    - These other values are added as secrets by default to prevent leaking
      information about private repositories. If you're not worried about that,
